@@ -1,5 +1,13 @@
+.small-caps {
+    font-variant: small-caps!important;
+}
+
+.uppercase {
+    text-transform: uppercase!important;
+}
+
 .x{
-    height: 440px !important;   
+    height: 440px!important;
 }
 
 .perpecti{
