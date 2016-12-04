@@ -302,7 +302,7 @@
  * Content Styles / Estilos par el contenido
  */
     .section {
-        min-height: 82vh; /* viewport height: altura de la pantalla (1vh = (altura de la pantall)/100)*/
+        min-height: 32vh; /* viewport height: altura de la pantalla (1vh = (altura de la pantall)/100)*/
         transition: all 0.25s ease-in-out;
         padding: 128px 0;
     }
@@ -329,13 +329,13 @@
     #about::before {
         border-bottom: 100px solid #2F1B41;
         border-right: 100vw solid transparent;
-        top: -100px;
+        top: -99px;
     }
 
     #about::after {
         border-bottom: 100px solid transparent;
         border-right: 100vw solid #2F1B41;
-        bottom: -100px;
+        bottom: -99px;
     }
 
     #about .profile-picture {
@@ -474,13 +474,13 @@
     #projects::before {
         border-bottom: 100px solid #BE3144;
         border-right: 100vw solid transparent;
-        top: -100px;
+        top: -98px;
     }
 
     #projects::after {
         border-bottom: 100px solid transparent;
         border-right: 100vw solid #BE3144;
-        bottom: -100px;
+        bottom: -99px;
     }
 
     #projects .project-card {
